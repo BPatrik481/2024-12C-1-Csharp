@@ -12,7 +12,7 @@ namespace korhasab
 
         //Osztályváltozók
 
-        private double sugar,
+        protected double sugar,
             kerulet,
             terulet;
         
