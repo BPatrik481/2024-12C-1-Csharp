@@ -15,8 +15,8 @@ namespace korhasab
         private double sugar,
             kerulet,
             terulet;
-
-        //Konstruktorok
+        
+        //Konstruktorok (a konstruktor szerepe a példányosítás)
         public kor()
         {
         }
