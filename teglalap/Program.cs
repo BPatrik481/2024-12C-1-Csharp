@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace korhasab
+namespace teglalap
 {
     class Program
     {
@@ -37,6 +37,12 @@ namespace korhasab
             Console.WriteLine($"A {k3.GetAoldal()}, {k3.GetBoldal()} oldalú teglalap, kerülete: {k3.GetKerulet()}, területe: {k3.GetTerulet()} ");
 
             #endregion Eof 3. objektum
+            #region teglatest számítás
+
+            teglatest t1 = new teglatest(10, 20, 5);
+            t1.SetFelszin();
+            Console.WriteLine($"\n\nA teglatest adatai:\na oldala: {t1.GetAoldal()}, \nb oldala: {t1.GetBoldal()}, \nc oldala: {t1.GetColdal()}, \ntérfogata: {t1.getTerfogat()}, \nfelszíne: {t1.getFelszin()}.");
+            #endregion Eof tegltest
             Console.ReadKey();
         }
     }

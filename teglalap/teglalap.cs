@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace korhasab
+namespace teglalap
 {
     class tegla
     {
         //Osztályváltozók
 
-        private double a_old,
+        protected double a_old,
             b_old,
             kerulet,
             terulet;
