@@ -50,16 +50,42 @@ namespace HaromszogTipusaOOP
     {
         static void Main(string[] args)
         {
+            int a, b, c;
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Kérem adja meg az a oldal hosszát: ");
+                    a = Convert.ToInt32(Console.ReadLine());
+
+                    Console.Write("Kérem adja meg a b oldal hosszát: ");
+                    b = Convert.ToInt32(Console.ReadLine());
+
+                    Console.Write("Kérem adja meg a c oldal hosszát: ");
+                    c = Convert.ToInt32(Console.ReadLine());
+
+                    break;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+            }
+
+            
             #region 1.objektum
-            HTipus haromszog1 = new HTipus(5, 12, 13);
+
+            HTipus haromszog1 = new HTipus(a, b, c); ;
             Console.WriteLine($"A háromszög érvényes: {haromszog1.valosharomszoge()}");
             Console.WriteLine($"Derékszögű háromszög: {haromszog1.derekszogue()}");
             Console.WriteLine($"Egyenlő szárú háromszög: {haromszog1.egyenloszarue()}");
             Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog1.egyenlooldalue()}");
             Console.WriteLine($"Terület: {haromszog1.terulet()}");
             Console.WriteLine();
+
             #endregion Eof 1.objektum
             #region 2.objektum
+           
             HTipus haromszog2 = new HTipus(5, 5, 5);
             Console.WriteLine($"A háromszög érvényes: {haromszog2.valosharomszoge()}");
             Console.WriteLine($"Derékszögű háromszög: {haromszog2.derekszogue()}");
@@ -67,6 +93,7 @@ namespace HaromszogTipusaOOP
             Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog2.egyenlooldalue()}");
             Console.WriteLine($"Terület: {haromszog2.terulet()}");
             Console.WriteLine();
+
             #endregion Eof 2.objektum
             #region 3.objektum
             HTipus haromszog3 = new HTipus(30, 30, 23);
@@ -75,6 +102,7 @@ namespace HaromszogTipusaOOP
             Console.WriteLine($"Egyenlő szárú háromszög: {haromszog3.egyenloszarue()}");
             Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog3.egyenlooldalue()}");
             Console.WriteLine($"Terület: {haromszog3.terulet()}");
+           
             #endregion Eof 3.objektum
             Console.ReadKey();
         }
