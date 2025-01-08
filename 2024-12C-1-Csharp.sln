@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negyzet", "negyzet\negyzet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "varos", "varos\varos.csproj", "{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epmagassag", "epmagassag\epmagassag.csproj", "{38C32392-8033-4FAA-BE9A-8113B37CF42D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
