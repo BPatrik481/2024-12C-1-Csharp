@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaromszogTipusaOOP", "Harom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kivetel", "kivetel\kivetel.csproj", "{B3D57AE1-C916-4AFD-B232-1900625A4425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negyzet", "negyzet\negyzet.csproj", "{5FF74304-6BB6-4845-B0D8-985C279818D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B3D57AE1-C916-4AFD-B232-1900625A4425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3D57AE1-C916-4AFD-B232-1900625A4425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3D57AE1-C916-4AFD-B232-1900625A4425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
