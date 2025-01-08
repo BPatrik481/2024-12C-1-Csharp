@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kivetel", "kivetel\kivetel.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negyzet", "negyzet\negyzet.csproj", "{5FF74304-6BB6-4845-B0D8-985C279818D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "varos", "varos\varos.csproj", "{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF74304-6BB6-4845-B0D8-985C279818D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
