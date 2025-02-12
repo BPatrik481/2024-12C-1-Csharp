@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33927.289
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "test2\test2.csproj", "{DBE07CDA-45CE-41E6-A394-344DECCCF756}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "varos", "varos\varos.csproj", "{577FC0A7-D92A-48A2-9714-1233F9EC0A8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epmagassag", "epmagassag\epmagassag.csproj", "{38C32392-8033-4FAA-BE9A-8113B37CF42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{6F8C81E6-1A86-445F-8B83-39F398A11FC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C32392-8033-4FAA-BE9A-8113B37CF42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
