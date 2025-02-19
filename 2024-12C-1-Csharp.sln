@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epmagassag", "epmagassag\ep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{6F8C81E6-1A86-445F-8B83-39F398A11FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textalign", "textalign\textalign.csproj", "{23C4E27F-016A-4077-AD35-70BEE99BF977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursor", "cursor\cursor.csproj", "{38196474-8D13-4A7E-BBAA-24D96BCD01C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F8C81E6-1A86-445F-8B83-39F398A11FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C4E27F-016A-4077-AD35-70BEE99BF977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C4E27F-016A-4077-AD35-70BEE99BF977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C4E27F-016A-4077-AD35-70BEE99BF977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C4E27F-016A-4077-AD35-70BEE99BF977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38196474-8D13-4A7E-BBAA-24D96BCD01C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38196474-8D13-4A7E-BBAA-24D96BCD01C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38196474-8D13-4A7E-BBAA-24D96BCD01C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38196474-8D13-4A7E-BBAA-24D96BCD01C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
