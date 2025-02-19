@@ -21,5 +21,15 @@ namespace cursor
         {
 
         }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            int n= e.X;
+            int m = e.Y;
+
+            label1.Text = ($"X.{n}, Y{m}");
+            label1.Top = m;
+            label1.Left = n;
+        }
     }
 }
