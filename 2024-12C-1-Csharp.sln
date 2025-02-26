@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursor", "cursor\cursor.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formmozg", "formmozg\formmozg.csproj", "{5659AC2D-958D-48A7-93CE-754BB93FACD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.4.FormMozg", "19.04.FormMozg\19.04.FormMozg\19.4.FormMozg.csproj", "{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{5659AC2D-958D-48A7-93CE-754BB93FACD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5659AC2D-958D-48A7-93CE-754BB93FACD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5659AC2D-958D-48A7-93CE-754BB93FACD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
