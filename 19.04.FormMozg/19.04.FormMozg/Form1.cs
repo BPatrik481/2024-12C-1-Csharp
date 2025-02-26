@@ -20,6 +20,61 @@ namespace FormMozg
             minWidth = 0,
             minHeight = 0;
 
+        private double opValtoz = 0.05,
+            opMin = 0.1;
+        private void btnFel_Click(object sender, EventArgs e)
+        {
+            // A formot felfelé mozgatjuk
+            Location = new Point(Location.X, (Location.Y -valtMagas) <=0 ? 0 : Location.Y - valtMagas);
+        }
+
+        private void btnkozep_Click(object sender, EventArgs e)
+        {
+            CenterToScreen();
+        }
+
+        private void btnLe_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, (Location.Y + Height + valtMagas) >= maxHeigth ? maxHeigth - Height : Location.Y + valtMagas);
+        }
+
+        private void btnAlul_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, maxHeigth - Height);
+        }
+
+        private void btnBalszel_Click(object sender, EventArgs e)
+        {
+            Location = new Point(0, Location.Y);
+        }
+
+        private void btnJobbszel_Click(object sender, EventArgs e)
+        {
+            Location = new Point(maxWidth - Width, Location.Y);
+        }
+
+        private void btnBalra_Click(object sender, EventArgs e)
+        {
+            Location = new Point((Location.X - valtSzeles) <= 0 ? 0 : Location.X - valtSzeles, Location.Y);
+        }
+
+        private void btnJobb_Click(object sender, EventArgs e)
+        {
+            Location = new Point((Location.X + Width + valtSzeles) >= maxWidth ? maxWidth - Width : Location.X + valtSzeles, Location.Y);
+        }
+
+        private void btnOpNo_Click(object sender, EventArgs e)
+        {
+            Opacity += opValtoz;
+        }
+
+        private void btnOpCsok_Click(object sender, EventArgs e)
+        {
+            Opacity -= opValtoz;
+            Opacity = Opacity <= opMin ? opMin : Opacity;
+
+        }
+
         private void btnFelul_Click(object sender, EventArgs e)
         {
             // A formot felülre visszük
