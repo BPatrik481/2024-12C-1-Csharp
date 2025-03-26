@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formmozg", "formmozg\formmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.4.FormMozg", "19.04.FormMozg\19.04.FormMozg\19.4.FormMozg.csproj", "{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlUsers", "MysqlUsers\MysqlUsers.csproj", "{2E062A03-3FAA-4648-BF22-83962845CFBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
