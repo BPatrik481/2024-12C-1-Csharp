@@ -124,6 +124,7 @@
             this.btnOp.TabIndex = 8;
             this.btnOp.Text = "Megnyitás olvasásra";
             this.btnOp.UseVisualStyleBackColor = true;
+            this.btnOp.Click += new System.EventHandler(this.btnOp_Click);
             // 
             // btnRead
             // 
@@ -133,6 +134,7 @@
             this.btnRead.TabIndex = 9;
             this.btnRead.Text = "Olvas";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnIns
             // 
@@ -142,6 +144,7 @@
             this.btnIns.TabIndex = 10;
             this.btnIns.Text = "Beszúrás";
             this.btnIns.UseVisualStyleBackColor = true;
+            this.btnIns.Click += new System.EventHandler(this.btnIns_Click);
             // 
             // btnEdit
             // 
@@ -151,6 +154,7 @@
             this.btnEdit.TabIndex = 11;
             this.btnEdit.Text = "Módosítás kezdés";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDel
             // 
