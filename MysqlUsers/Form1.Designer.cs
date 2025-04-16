@@ -164,6 +164,7 @@
             this.btnDel.TabIndex = 12;
             this.btnDel.Text = "Törlés";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnClose
             // 
@@ -197,6 +198,7 @@
             this.Controls.Add(this.tbxID);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

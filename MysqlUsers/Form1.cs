@@ -236,6 +236,50 @@ namespace MysqlUsers
             }
         }
 
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            switch(formState)
+            {
+                case FormState.Reading:
+                    break;
+            }
+            if(formState == FormState.Reading)
+            {
+                msqlDr.Close();
+                formState = FormState.Opened;
+                buttonSwitch(formState);
+            }
+            DeleteUser(Convert.ToInt32(tbxID.Text));
+        }
+
+        private void DeleteUser(int pID)
+        {
+            using (MySqlCommand sqlcomm = new MySqlCommand(userDelete, msqlConn))
+            {
+                sqlcomm.CommandType = CommandType.StoredProcedure;
+
+                sqlcomm.Parameters.AddWithValue("pID", pID);
+                try
+                {
+                    sqlcomm.ExecuteNonQuery();
+                    MessageBox.Show("A rekord törlése sikeres");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (msqlConn != null)
+            {
+                msqlConn.Close();
+                MessageBox.Show(closedDB);
+            }
+        }
+
         private void btnEdit_Click(object sender, EventArgs e)
         {
             switch (formState)
