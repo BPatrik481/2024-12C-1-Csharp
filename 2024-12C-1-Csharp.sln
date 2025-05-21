@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kepekkorbe", "kepekkorbe\ke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlUsers", "MysqlUsers\MysqlUsers.csproj", "{2E062A03-3FAA-4648-BF22-83962845CFBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iktatoMySQL", "iktatoMySQL\iktatoMySQL.csproj", "{59964511-816F-4482-B9A8-6FB5DF94CB50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
