@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlUsers", "MysqlUsers\My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iktatoMySQL", "iktatoMySQL\iktatoMySQL.csproj", "{59964511-816F-4482-B9A8-6FB5DF94CB50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectionsClass", "DBConnectionsClass\DBConnectionsClass.csproj", "{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59964511-816F-4482-B9A8-6FB5DF94CB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
